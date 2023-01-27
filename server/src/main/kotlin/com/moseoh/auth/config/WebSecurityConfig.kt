@@ -15,16 +15,12 @@ class WebSecurityConfig(): WebMvcConfigurer {
     fun filterChain(http: HttpSecurity): SecurityFilterChain {
         http
             .csrf().disable()
-            /** **/
             .formLogin().disable()
             .rememberMe().disable()
             .logout().disable()
             .headers().disable()
             .httpBasic().disable()
             .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-//            .and()
-//            .authorizeHttpRequests()
-//            .requestMatchers("/**").permitAll()
         return http.build()
     }
 }
