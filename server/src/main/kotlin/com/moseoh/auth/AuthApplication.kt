@@ -9,5 +9,5 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing
 class AuthApplication
 
 fun main(args: Array<String>) {
-	runApplication<AuthApplication>(*args)
+    runApplication<AuthApplication>(*args)
 }
