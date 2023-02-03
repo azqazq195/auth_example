@@ -11,7 +11,6 @@ import reactor.netty.transport.logging.AdvancedByteBufFormat
 
 @Configuration
 class WebClientConfig {
-
     @Bean
     @Profile("development")
     fun webClientWithLogging(
