@@ -1,6 +1,6 @@
-package com.moseoh.auth.domain.member._auth.controller
+package com.moseoh.auth.domain._auth.controller
 
-import com.moseoh.auth.domain.member._auth.service.AuthService
+import com.moseoh.auth.domain._auth.service.AuthService
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
