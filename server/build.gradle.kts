@@ -51,6 +51,9 @@ dependencies {
     // h2 database
     implementation("com.h2database:h2")
 
+    // flyway
+    implementation("org.flywaydb:flyway-core:9.14.1")
+
     // webClient logging
     implementation("io.netty:netty-all:4.1.87.Final")
 
